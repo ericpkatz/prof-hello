@@ -7,7 +7,7 @@ describe('my app', ()=> {
     it('returns hello world', ()=> {
       return app.get('/')
         .expect(200)
-        .then( response => expect(response.text).to.equal('hello world'));
+        .then( response => expect(response.text).to.equal('hello world!!'));
     });
   });
 });
