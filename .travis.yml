@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - "8.11.1"
+- 8.11.1
 deploy:
   provider: heroku
+  app: profs-hello-world
+  api_key:
+    secure: jPB9I/R/qe+EZEfGuExKx5LaVHZj2Z8D6k1OwniHwF1B1SdPNkdSugmBiI/WCkPkl31B30bPfcfN08Skol583h+4YMkodYpSvHTjcIO1sRw+yDQloX/hUatRDcTEr9k814hgdow9+ctDk5L4dGW+/Z54gXJp5DUvShN39GeNynjm1rEIzA2Z6SmrkDzJp5sJXnV8fbV+mgu0Uxs3t1/shw0SQxX+TX4vz326iXilDU38hm9RVKI1yQcw/dFnWtQmRx3zOSUBBi2WHVvSkPZgShmRoLn5SjkgSQURQlmead2d33uu3quYRIlDbYesap4H6mhAew46Z/UA/j8MnvjNnqnDLtPKB++SHMgXzttMfFhzoP2vvQDc6lm3c/ahKsfwsojk72hsV10HpOcVaoY3Enn/GWxitk1bIVZt2MSFaf3J+IG3QWIcfM7XXLNLSYwqWHVckfOHj/LFwDgvA9iDFLE2re4X4UTLZ8CbgmEfI9cD1kTNMu2+5FCgc3CRHdcdGX3fWW17zlDHvTR0aGCQ+Gyo4A39BnlKO9x9dmcl0zW7Qx9Ty71pskRq6lHUnXVs+p8w393jLvLkeLqOl9NR8t43XhzVrFAJ9h3rvnkyaSeAQCfOF8MVOjxGeXWunYxo29Tzw2wI6Xa0CpUJPRYF/2r9JI35DSalK6CYPVtcK6s=
