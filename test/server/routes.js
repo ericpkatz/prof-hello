@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const app = require('supertest')(require('./app'));
+const app = require('supertest')(require('../../app'));
 
 describe('my app', ()=> {
   describe('GET /', ()=> {
