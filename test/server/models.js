@@ -8,7 +8,7 @@ describe('models', ()=> {
   describe('Product', ()=> {
     it('there are 3', ()=> {
       return Product.findAll() 
-        .then( products => expect(products.length).to.equal(3))
+        .then( products => expect(products.length).to.equal(4))
     });
   });
 });
